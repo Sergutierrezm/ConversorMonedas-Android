@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
             if(texto.isEmpty()) {
                 Toast.makeText(MainActivity.this,
-                        "Debe introducir una cantidad a convertir",
+                        "Error: Debes introducir una cantidad a convertir",
                         Toast.LENGTH_SHORT).show();
                 return;
             }
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.LENGTH_SHORT).show();
             }catch (NumberFormatException e) {
                 Toast.makeText(MainActivity.this,
-                        "Valor erroneo, introduzca un valor numerico",
+                        "Error: Datos incorrectos, introduzca un valor numerico",
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (texto.isEmpty()) {
                 Toast.makeText(MainActivity.this,
-                        "Debe introducir una cantidad a convertir",
+                        "Error: Debe introducir una cantidad a convertir",
                         Toast.LENGTH_SHORT).show();
                 return;
             }
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.LENGTH_SHORT).show();
             } catch (NumberFormatException e) {
                 Toast.makeText(MainActivity.this,
-                        "Valor erroneo, introduzca un valor numerico",
+                        "Error: Datos incorrectos, introduzca un valor numerico",
                         Toast.LENGTH_SHORT).show();
             }
         });
